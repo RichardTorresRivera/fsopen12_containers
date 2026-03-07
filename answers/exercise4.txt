@@ -1,0 +1,503 @@
+Script started on 2026-03-06 17:39:00-05:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="76" LINES="15"]
+Welcome to fish, the friendly interactive shell
+Type [32mhelp(B[m for instructions on how to use fish
+[?2004h]0;~/f/script-answers[30m(B[m[92mrichie(B[m@(B[mLAPTOP-HQ8TI5FC(B[m [32m~/f/script-answers(B[m (main)(B[m> [K[50Cd[51C[90mocker start -i nervous_…[30m(B[m[51C[91md[90mocker start -i nervous_…[30m(B[m[51C[91mo[90mcker start -i nervous_…[30m(B[m[52C[91mc[90mker start -i nervous_…[30m(B[m[53Cdocker start -i nervous_ptolemy[A
+[5C[A
+[5C[A[45C[34mdocker[30m(B[m [36mstart[30m(B[m [36m-i[30m(B[m [36mnervous_pt[30m(B[m[36molemy[30m(B[m[A
+[5C[A
+[5C
+[30m(B[m[?2004l]0;docker start -i nerv ~/f/script-answers[30m(B[m[?2004h]0;root@679ce062ae7c: /root@679ce062ae7c:/# [K]0;root@679ce062ae7c: /root@679ce062ae7c:/# curs l -sl https://deb.nodesource.com/setup_20.x   | bashl[1P[1@L https://deb.nodesource.com/setup_20.x | bash                                                     [7mcurl -sL https://deb.nodesource.com/setup_20.x | bash[27m
+[7mapt install -y nodejs[27m[Acurl -sL https://deb.nodesource.com/setup_20.x | bash
+apt install -y nodejs
+[?2004l[38;5;79m2026-03-06 22:40:00 - Installing pre-requisites[0m
+[33m0% [Working][0m            Hit:1 http://archive.ubuntu.com/ubuntu noble InRelease
+[33m0% [Waiting for headers][0m                        Hit:2 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+[33m0% [Waiting for headers][0m                        Hit:3 http://security.ubuntu.com/ubuntu noble-security InRelease
+[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m                        Hit:4 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+[33m                        0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m20% [Working][0m             Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 4%Reading package lists... 4%Reading package lists... 53%Reading package lists... 53%Reading package lists... 54%Reading package lists... 54%Reading package lists... 55%Reading package lists... 55%Reading package lists... 61%Reading package lists... 61%Reading package lists... 62%Reading package lists... 68%Reading package lists... 68%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 85%Reading package lists... 85%Reading package lists... 89%Reading package lists... 89%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 4%Reading state information... Done
+4 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 4%Reading package lists... 4%Reading package lists... 53%Reading package lists... 53%Reading package lists... 54%Reading package lists... 54%Reading package lists... 55%Reading package lists... 55%Reading package lists... 61%Reading package lists... 61%Reading package lists... 68%Reading package lists... 68%Reading package lists... 69%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 85%Reading package lists... 85%Reading package lists... 89%Reading package lists... 89%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 4%Reading state information... Done
+ca-certificates is already the newest version (20240203).
+ca-certificates set to manually installed.
+curl is already the newest version (8.5.0-2ubuntu10.7).
+The following additional packages will be installed:
+  adduser dirmngr gnupg-l10n gnupg-utils gpg gpg-agent gpg-wks-client
+  gpgconf gpgsm keyboxd libksba8 libreadline8t64 libsqlite3-0
+  pinentry-curses readline-common
+Suggested packages:
+  liblocale-gettext-perl perl cron quota ecryptfs-utils dbus-user-session
+  libpam-systemd pinentry-gnome3 tor parcimonie xloadimage gpg-wks-server
+  scdaemon pinentry-doc readline-doc
+The following NEW packages will be installed:
+  adduser apt-transport-https dirmngr gnupg gnupg-l10n gnupg-utils gpg
+  gpg-agent gpg-wks-client gpgconf gpgsm keyboxd libksba8 libreadline8t64
+  libsqlite3-0 pinentry-curses readline-common
+0 upgraded, 17 newly installed, 0 to remove and 4 not upgraded.
+Need to get 3307 kB of archives.
+After this operation, 8328 kB of additional disk space will be used.
+[33m0% [Working][0m            Get:1 http://archive.ubuntu.com/ubuntu noble/main amd64 adduser all 3.137ubuntu1 [101 kB]
+[33m0% [1 adduser 1128 B/101 kB 1%][0m[33m                               4% [Working][0m            Get:2 http://archive.ubuntu.com/ubuntu noble/main amd64 readline-common all 8.2-4build1 [56.5 kB]
+[33m4% [2 readline-common 0 B/56.5 kB 0%][0m[33m                                     6% [Waiting for headers][0m                        Get:3 http://archive.ubuntu.com/ubuntu noble/main amd64 libreadline8t64 amd64 8.2-4build1 [153 kB]
+[33m6% [3 libreadline8t64 2238 B/153 kB 1%][0m[33m                                       11% [Waiting for headers][0m                         Get:4 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libsqlite3-0 amd64 3.45.1-1ubuntu2.5 [701 kB]
+[33m11% [4 libsqlite3-0 1612 B/701 kB 0%][0m[33m                                     29% [Waiting for headers][0m                         Get:5 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 apt-transport-https all 2.8.3 [3970 B]
+[33m29% [5 apt-transport-https 3970 B/3970 B 100%][0m[33m                                              30% [Working][0m             Get:6 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 gpgconf amd64 2.4.4-2ubuntu17.4 [104 kB]
+[33m31% [6 gpgconf 15.3 kB/104 kB 15%][0m[33m                                  34% [Waiting for headers][0m                         Get:7 http://archive.ubuntu.com/ubuntu noble/main amd64 libksba8 amd64 1.6.6-1build1 [122 kB]
+[33m35% [7 libksba8 20.1 kB/122 kB 16%][0m[33m                                   38% [Waiting for headers][0m                         Get:8 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 dirmngr amd64 2.4.4-2ubuntu17.4 [323 kB]
+[33m39% [8 dirmngr 17.0 kB/323 kB 5%][0m[33m                                 47% [Waiting for headers][0m                         Get:9 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 gnupg-utils amd64 2.4.4-2ubuntu17.4 [109 kB]
+[33m47% [9 gnupg-utils 7026 B/109 kB 6%][0m[33m                                    51% [Working][0m             Get:10 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 gpg amd64 2.4.4-2ubuntu17.4 [565 kB]
+[33m51% [10 gpg 1930 B/565 kB 0%][0m[33m                             66% [Waiting for headers][0m                         Get:11 http://archive.ubuntu.com/ubuntu noble/main amd64 pinentry-curses amd64 1.2.1-3ubuntu5 [35.2 kB]
+[33m66% [11 pinentry-curses 12.8 kB/35.2 kB 36%][0m[33m                                            68% [Waiting for headers][0m                         Get:12 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 gpg-agent amd64 2.4.4-2ubuntu17.4 [227 kB]
+[33m68% [12 gpg-agent 3064 B/227 kB 1%][0m[33m                                   75% [Waiting for headers][0m                         Get:13 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 gpgsm amd64 2.4.4-2ubuntu17.4 [232 kB]
+[33m75% [13 gpgsm 20.5 kB/232 kB 9%][0m[33m                                81% [Waiting for headers][0m                         Get:14 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 keyboxd amd64 2.4.4-2ubuntu17.4 [78.3 kB]
+[33m82% [14 keyboxd 4823 B/78.3 kB 6%][0m[33m                                  84% [Waiting for headers][0m                         Get:15 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 gnupg all 2.4.4-2ubuntu17.4 [359 kB]
+[33m85% [15 gnupg 12.3 kB/359 kB 3%][0m[33m                                94% [Waiting for headers][0m                         Get:16 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 gnupg-l10n all 2.4.4-2ubuntu17.4 [66.4 kB]
+[33m94% [16 gnupg-l10n 4096 B/66.4 kB 6%][0m[33m                                     97% [Waiting for headers][0m                         Get:17 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 gpg-wks-client amd64 2.4.4-2ubuntu17.4 [70.8 kB]
+[33m97% [17 gpg-wks-client 8192 B/70.8 kB 12%][0m[33m                                          100% [Working][0m              Fetched 3307 kB in 1s (2691 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+
+7[0;14r8[1ASelecting previously unselected package adduser.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 5087 files and directories currently installed.)
+Preparing to unpack .../adduser_3.137ubuntu1_all.deb ...
+7[15;0f[42m[30mProgress: [  0%][49m[39m [......................................................] 87[15;0f[42m[30mProgress: [  1%][49m[39m [......................................................] 8Unpacking adduser (3.137ubuntu1) ...
+7[15;0f[42m[30mProgress: [  3%][49m[39m [#.....................................................] 8Setting up adduser (3.137ubuntu1) ...
+7[15;0f[42m[30mProgress: [  4%][49m[39m [##....................................................] 87[15;0f[42m[30mProgress: [  6%][49m[39m [###...................................................] 8Selecting previously unselected package readline-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 5135 files and directories currently installed.)
+Preparing to unpack .../00-readline-common_8.2-4build1_all.deb ...
+7[15;0f[42m[30mProgress: [  7%][49m[39m [###...................................................] 8Unpacking readline-common (8.2-4build1) ...
+7[15;0f[42m[30mProgress: [  9%][49m[39m [####..................................................] 8Selecting previously unselected package libreadline8t64:amd64.
+Preparing to unpack .../01-libreadline8t64_8.2-4build1_amd64.deb ...
+7[15;0f[42m[30mProgress: [ 10%][49m[39m [#####.................................................] 8Adding 'diversion of /lib/x86_64-linux-gnu/libhistory.so.8 to /lib/x86_64-linux-gnu/libhistory.so.8.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/x86_64-linux-gnu/libhistory.so.8.2 to /lib/x86_64-linux-gnu/libhistory.so.8.2.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/x86_64-linux-gnu/libreadline.so.8 to /lib/x86_64-linux-gnu/libreadline.so.8.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/x86_64-linux-gnu/libreadline.so.8.2 to /lib/x86_64-linux-gnu/libreadline.so.8.2.usr-is-merged by libreadline8t64'
+Unpacking libreadline8t64:amd64 (8.2-4build1) ...
+7[15;0f[42m[30mProgress: [ 12%][49m[39m [######................................................] 8Selecting previously unselected package libsqlite3-0:amd64.
+Preparing to unpack .../02-libsqlite3-0_3.45.1-1ubuntu2.5_amd64.deb ...
+7[15;0f[42m[30mProgress: [ 13%][49m[39m [#######...............................................] 8Unpacking libsqlite3-0:amd64 (3.45.1-1ubuntu2.5) ...
+7[15;0f[42m[30mProgress: [ 14%][49m[39m [#######...............................................] 8Selecting previously unselected package apt-transport-https.
+Preparing to unpack .../03-apt-transport-https_2.8.3_all.deb ...
+7[15;0f[42m[30mProgress: [ 16%][49m[39m [########..............................................] 8Unpacking apt-transport-https (2.8.3) ...
+7[15;0f[42m[30mProgress: [ 17%][49m[39m [#########.............................................] 8Selecting previously unselected package gpgconf.
+Preparing to unpack .../04-gpgconf_2.4.4-2ubuntu17.4_amd64.deb ...
+7[15;0f[42m[30mProgress: [ 19%][49m[39m [##########............................................] 8Unpacking gpgconf (2.4.4-2ubuntu17.4) ...
+7[15;0f[42m[30mProgress: [ 20%][49m[39m [##########............................................] 8Selecting previously unselected package libksba8:amd64.
+Preparing to unpack .../05-libksba8_1.6.6-1build1_amd64.deb ...
+7[15;0f[42m[30mProgress: [ 22%][49m[39m [###########...........................................] 8Unpacking libksba8:amd64 (1.6.6-1build1) ...
+7[15;0f[42m[30mProgress: [ 23%][49m[39m [############..........................................] 8Selecting previously unselected package dirmngr.
+Preparing to unpack .../06-dirmngr_2.4.4-2ubuntu17.4_amd64.deb ...
+7[15;0f[42m[30mProgress: [ 25%][49m[39m [#############.........................................] 8Unpacking dirmngr (2.4.4-2ubuntu17.4) ...
+7[15;0f[42m[30mProgress: [ 26%][49m[39m [##############........................................] 8Selecting previously unselected package gnupg-utils.
+Preparing to unpack .../07-gnupg-utils_2.4.4-2ubuntu17.4_amd64.deb ...
+7[15;0f[42m[30mProgress: [ 28%][49m[39m [##############........................................] 8Unpacking gnupg-utils (2.4.4-2ubuntu17.4) ...
+7[15;0f[42m[30mProgress: [ 29%][49m[39m [###############.......................................] 8Selecting previously unselected package gpg.
+Preparing to unpack .../08-gpg_2.4.4-2ubuntu17.4_amd64.deb ...
+7[15;0f[42m[30mProgress: [ 30%][49m[39m [################......................................] 8Unpacking gpg (2.4.4-2ubuntu17.4) ...
+7[15;0f[42m[30mProgress: [ 32%][49m[39m [#################.....................................] 8Selecting previously unselected package pinentry-curses.
+Preparing to unpack .../09-pinentry-curses_1.2.1-3ubuntu5_amd64.deb ...
+7[15;0f[42m[30mProgress: [ 33%][49m[39m [#################.....................................] 8Unpacking pinentry-curses (1.2.1-3ubuntu5) ...
+7[15;0f[42m[30mProgress: [ 35%][49m[39m [##################....................................] 8Selecting previously unselected package gpg-agent.
+Preparing to unpack .../10-gpg-agent_2.4.4-2ubuntu17.4_amd64.deb ...
+7[15;0f[42m[30mProgress: [ 36%][49m[39m [###################...................................] 8Unpacking gpg-agent (2.4.4-2ubuntu17.4) ...
+7[15;0f[42m[30mProgress: [ 38%][49m[39m [####################..................................] 8Selecting previously unselected package gpgsm.
+Preparing to unpack .../11-gpgsm_2.4.4-2ubuntu17.4_amd64.deb ...
+7[15;0f[42m[30mProgress: [ 39%][49m[39m [#####################.................................] 8Unpacking gpgsm (2.4.4-2ubuntu17.4) ...
+7[15;0f[42m[30mProgress: [ 41%][49m[39m [#####################.................................] 8Selecting previously unselected package keyboxd.
+Preparing to unpack .../12-keyboxd_2.4.4-2ubuntu17.4_amd64.deb ...
+7[15;0f[42m[30mProgress: [ 42%][49m[39m [######################................................] 8Unpacking keyboxd (2.4.4-2ubuntu17.4) ...
+7[15;0f[42m[30mProgress: [ 43%][49m[39m [#######################...............................] 8Selecting previously unselected package gnupg.
+Preparing to unpack .../13-gnupg_2.4.4-2ubuntu17.4_all.deb ...
+7[15;0f[42m[30mProgress: [ 45%][49m[39m [########################..............................] 8Unpacking gnupg (2.4.4-2ubuntu17.4) ...
+7[15;0f[42m[30mProgress: [ 46%][49m[39m [#########################.............................] 8Selecting previously unselected package gnupg-l10n.
+Preparing to unpack .../14-gnupg-l10n_2.4.4-2ubuntu17.4_all.deb ...
+7[15;0f[42m[30mProgress: [ 48%][49m[39m [#########################.............................] 8Unpacking gnupg-l10n (2.4.4-2ubuntu17.4) ...
+7[15;0f[42m[30mProgress: [ 49%][49m[39m [##########################............................] 8Selecting previously unselected package gpg-wks-client.
+Preparing to unpack .../15-gpg-wks-client_2.4.4-2ubuntu17.4_amd64.deb ...
+7[15;0f[42m[30mProgress: [ 51%][49m[39m [###########################...........................] 8Unpacking gpg-wks-client (2.4.4-2ubuntu17.4) ...
+7[15;0f[42m[30mProgress: [ 52%][49m[39m [############################..........................] 8Setting up libksba8:amd64 (1.6.6-1build1) ...
+7[15;0f[42m[30mProgress: [ 54%][49m[39m [############################..........................] 87[15;0f[42m[30mProgress: [ 55%][49m[39m [#############################.........................] 8Setting up pinentry-curses (1.2.1-3ubuntu5) ...
+7[15;0f[42m[30mProgress: [ 57%][49m[39m [##############################........................] 87[15;0f[42m[30mProgress: [ 58%][49m[39m [###############################.......................] 8Setting up apt-transport-https (2.8.3) ...
+7[15;0f[42m[30mProgress: [ 59%][49m[39m [################################......................] 87[15;0f[42m[30mProgress: [ 61%][49m[39m [################################......................] 8Setting up libsqlite3-0:amd64 (3.45.1-1ubuntu2.5) ...
+7[15;0f[42m[30mProgress: [ 62%][49m[39m [#################################.....................] 87[15;0f[42m[30mProgress: [ 64%][49m[39m [##################################....................] 8Setting up gnupg-l10n (2.4.4-2ubuntu17.4) ...
+7[15;0f[42m[30mProgress: [ 65%][49m[39m [###################################...................] 87[15;0f[42m[30mProgress: [ 67%][49m[39m [###################################...................] 8Setting up readline-common (8.2-4build1) ...
+7[15;0f[42m[30mProgress: [ 68%][49m[39m [####################################..................] 87[15;0f[42m[30mProgress: [ 70%][49m[39m [#####################################.................] 8Setting up gnupg-utils (2.4.4-2ubuntu17.4) ...
+7[15;0f[42m[30mProgress: [ 71%][49m[39m [######################################................] 87[15;0f[42m[30mProgress: [ 72%][49m[39m [#######################################...............] 8Setting up libreadline8t64:amd64 (8.2-4build1) ...
+7[15;0f[42m[30mProgress: [ 74%][49m[39m [#######################################...............] 87[15;0f[42m[30mProgress: [ 75%][49m[39m [########################################..............] 8Setting up gpgconf (2.4.4-2ubuntu17.4) ...
+7[15;0f[42m[30mProgress: [ 77%][49m[39m [#########################################.............] 87[15;0f[42m[30mProgress: [ 78%][49m[39m [##########################################............] 8Setting up gpg (2.4.4-2ubuntu17.4) ...
+7[15;0f[42m[30mProgress: [ 80%][49m[39m [###########################################...........] 87[15;0f[42m[30mProgress: [ 81%][49m[39m [###########################################...........] 8Setting up gpg-agent (2.4.4-2ubuntu17.4) ...
+7[15;0f[42m[30mProgress: [ 83%][49m[39m [############################################..........] 87[15;0f[42m[30mProgress: [ 84%][49m[39m [#############################################.........] 8Setting up gpgsm (2.4.4-2ubuntu17.4) ...
+7[15;0f[42m[30mProgress: [ 86%][49m[39m [##############################################........] 87[15;0f[42m[30mProgress: [ 87%][49m[39m [##############################################........] 8Setting up dirmngr (2.4.4-2ubuntu17.4) ...
+7[15;0f[42m[30mProgress: [ 88%][49m[39m [###############################################.......] 87[15;0f[42m[30mProgress: [ 90%][49m[39m [################################################......] 8Setting up keyboxd (2.4.4-2ubuntu17.4) ...
+7[15;0f[42m[30mProgress: [ 91%][49m[39m [#################################################.....] 87[15;0f[42m[30mProgress: [ 93%][49m[39m [##################################################....] 8Setting up gnupg (2.4.4-2ubuntu17.4) ...
+7[15;0f[42m[30mProgress: [ 94%][49m[39m [##################################################....] 87[15;0f[42m[30mProgress: [ 96%][49m[39m [###################################################...] 8Setting up gpg-wks-client (2.4.4-2ubuntu17.4) ...
+7[15;0f[42m[30mProgress: [ 97%][49m[39m [####################################################..] 87[15;0f[42m[30mProgress: [ 99%][49m[39m [#####################################################.] 8Processing triggers for libc-bin (2.39-0ubuntu8.7) ...
+
+7[0;15r8[1A[J[33m0% [Working][0m            Get:1 https://deb.nodesource.com/node_20.x nodistro InRelease [12.1 kB]
+[33m0% [1 InRelease 816 B/12.1 kB 7%] [Waiting for headers] [Connecting to secu[0m[33m                                                                           0% [Waiting for headers] [Waiting for headers][0m                                              Hit:2 http://archive.ubuntu.com/ubuntu noble InRelease
+[33m                                              0% [Waiting for headers][0m[33m0% [Waiting for headers] [Waiting for headers][0m                                              Hit:3 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+[33m0% [Waiting for headers] [Waiting for headers][0m                                              Hit:4 http://security.ubuntu.com/ubuntu noble-security InRelease
+[33m0% [Waiting for headers] [Waiting for headers][0m[33m0% [Waiting for headers] [Waiting for headers][0m                                              Hit:5 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+[33m                                              0% [Waiting for headers][0m[33m0% [Waiting for headers][0m                        Get:6 https://deb.nodesource.com/node_20.x nodistro/main amd64 Packages [14.0 kB]
+[33m0% [6 Packages 723 B/14.0 kB 5%][0m[33m                                0% [Working][0m[33m0% [6 Packages store 0 B][0m[33m                         0% [Working][0m[33m0% [Working][0m[33m100% [Working][0m              Fetched 26.1 kB in 1s (40.8 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 4%Reading package lists... 4%Reading package lists... 53%Reading package lists... 53%Reading package lists... 54%Reading package lists... 54%Reading package lists... 55%Reading package lists... 55%Reading package lists... 61%Reading package lists... 61%Reading package lists... 61%Reading package lists... 68%Reading package lists... 68%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 85%Reading package lists... 85%Reading package lists... 89%Reading package lists... 89%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 2%Reading state information... Done
+4 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[1;34m2026-03-06 22:40:11 - Repository configured successfully.[0m
+[38;5;79m2026-03-06 22:40:11 - To install Node.js, run: apt install nodejs -y[0m
+[38;5;79m2026-03-06 22:40:11 - You can use N|solid Runtime as a node.js alternative[0m
+[1;32m2026-03-06 22:40:11 - To install N|solid Runtime, run: apt install nsolid -y 
+[0m
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 4%Reading package lists... 4%Reading package lists... 53%Reading package lists... 53%Reading package lists... 54%Reading package lists... 54%Reading package lists... 55%Reading package lists... 55%Reading package lists... 61%Reading package lists... 61%Reading package lists... 63%Reading package lists... 68%Reading package lists... 68%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 85%Reading package lists... 85%Reading package lists... 89%Reading package lists... 89%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 2%Reading state information... Done
+The following additional packages will be installed:
+  libexpat1 libpython3-stdlib libpython3.12-minimal libpython3.12-stdlib
+  media-types netbase python3 python3-minimal python3.12
+  python3.12-minimal tzdata
+Suggested packages:
+  python3-doc python3-tk python3-venv python3.12-venv python3.12-doc
+  binutils binfmt-support
+The following NEW packages will be installed:
+  libexpat1 libpython3-stdlib libpython3.12-minimal libpython3.12-stdlib
+  media-types netbase nodejs python3 python3-minimal python3.12
+  python3.12-minimal tzdata
+0 upgraded, 12 newly installed, 0 to remove and 4 not upgraded.
+Need to get 38.6 MB of archives.
+After this operation, 222 MB of additional disk space will be used.
+[33m0% [Working][0m            Get:1 https://deb.nodesource.com/node_20.x nodistro/main amd64 nodejs amd64 20.20.1-1nodesource1 [32.2 MB]
+[33m0% [Waiting for headers] [1 nodejs 658 B/32.2 MB 0%][0m                                                    Get:2 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3.12-minimal amd64 3.12.3-1ubuntu0.11 [837 kB]
+[33m0% [2 libpython3.12-minimal 13.8 kB/837 kB 2%] [1 nodejs 129 kB/32.2 MB 0%][0m[33m10% [2 libpython3.12-minimal 120 kB/837 kB 14%] [1 nodejs 4501 kB/32.2 MB 1[0m[33m22% [2 libpython3.12-minimal 447 kB/837 kB 53%] [1 nodejs 10.0 MB/32.2 MB 3[0m[33m                                                                           32% [1 nodejs 13.8 MB/32.2 MB 43%][0m                                  Get:3 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libexpat1 amd64 2.6.1-2ubuntu0.4 [88.2 kB]
+[33m36% [3 libexpat1 5357 B/88.2 kB 6%] [1 nodejs 15.9 MB/32.2 MB 49%][0m[33m                                                                  39% [Waiting for headers] [1 nodejs 16.2 MB/32.2 MB 50%][0m                                                        Get:4 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3.12-minimal amd64 3.12.3-1ubuntu0.11 [2342 kB]
+[33m39% [4 python3.12-minimal 22.8 kB/2342 kB 1%] [1 nodejs 16.2 MB/32.2 MB 50%[0m[33m50% [4 python3.12-minimal 1062 kB/2342 kB 45%] [1 nodejs 20.6 MB/32.2 MB 64[0m[33m                                                                           61% [1 nodejs 23.8 MB/32.2 MB 74%][0m                                  Get:5 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-minimal amd64 3.12.3-0ubuntu2.1 [27.4 kB]
+[33m61% [5 python3-minimal 0 B/27.4 kB 0%] [1 nodejs 23.8 MB/32.2 MB 74%][0m[33m                                                                     63% [Waiting for headers] [1 nodejs 23.8 MB/32.2 MB 74%][0m                                                        Get:6 http://archive.ubuntu.com/ubuntu noble/main amd64 media-types all 10.1.0 [27.5 kB]
+[33m63% [6 media-types 7568 B/27.5 kB 28%] [1 nodejs 23.8 MB/32.2 MB 74%][0m[33m                                                                     65% [1 nodejs 23.9 MB/32.2 MB 74%][0m                                  Get:7 http://archive.ubuntu.com/ubuntu noble/main amd64 netbase all 6.4 [13.1 kB]
+[33m65% [7 netbase 0 B/13.1 kB 0%] [1 nodejs 23.9 MB/32.2 MB 74%][0m[33m                                                             67% [1 nodejs 24.0 MB/32.2 MB 74%][0m                                  Get:8 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 tzdata all 2025b-0ubuntu0.24.04.1 [276 kB]
+[33m67% [8 tzdata 0 B/276 kB 0%] [1 nodejs 24.0 MB/32.2 MB 74%][0m[33m                                                           70% [Waiting for headers] [1 nodejs 24.3 MB/32.2 MB 76%][0m                                                        Get:9 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3.12-stdlib amd64 3.12.3-1ubuntu0.11 [2069 kB]
+[33m70% [9 libpython3.12-stdlib 20.5 kB/2069 kB 1%] [1 nodejs 24.3 MB/32.2 MB 7[0m[33m                                                                           81% [Waiting for headers] [1 nodejs 27.2 MB/32.2 MB 84%][0m                                                        Get:10 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3.12 amd64 3.12.3-1ubuntu0.11 [651 kB]
+[33m81% [10 python3.12 10.8 kB/651 kB 2%] [1 nodejs 27.2 MB/32.2 MB 84%][0m[33m                                                                    86% [Waiting for headers] [1 nodejs 27.9 MB/32.2 MB 86%][0m                                                        Get:11 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3-stdlib amd64 3.12.3-0ubuntu2.1 [10.1 kB]
+[33m86% [11 libpython3-stdlib 4096 B/10.1 kB 41%] [1 nodejs 27.9 MB/32.2 MB 86%[0m[33m                                                                           88% [1 nodejs 27.9 MB/32.2 MB 87%][0m                                  Get:12 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3 amd64 3.12.3-0ubuntu2.1 [23.0 kB]
+[33m88% [12 python3 0 B/23.0 kB 0%] [1 nodejs 27.9 MB/32.2 MB 87%][0m[33m                                                              90% [1 nodejs 28.0 MB/32.2 MB 87%][0m[33m                                  100% [Working][0m              Fetched 38.6 MB in 4s (9848 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+
+7[0;14r8[1ASelecting previously unselected package libpython3.12-minimal:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 5369 files and directories currently installed.)
+Preparing to unpack .../libpython3.12-minimal_3.12.3-1ubuntu0.11_amd64.deb ...
+7[15;0f[42m[30mProgress: [  0%][49m[39m [......................................................] 87[15;0f[42m[30mProgress: [  2%][49m[39m [#.....................................................] 8Unpacking libpython3.12-minimal:amd64 (3.12.3-1ubuntu0.11) ...
+7[15;0f[42m[30mProgress: [  4%][49m[39m [##....................................................] 8Selecting previously unselected package libexpat1:amd64.
+Preparing to unpack .../libexpat1_2.6.1-2ubuntu0.4_amd64.deb ...
+7[15;0f[42m[30mProgress: [  6%][49m[39m [###...................................................] 8Unpacking libexpat1:amd64 (2.6.1-2ubuntu0.4) ...
+7[15;0f[42m[30mProgress: [  8%][49m[39m [####..................................................] 8Selecting previously unselected package python3.12-minimal.
+Preparing to unpack .../python3.12-minimal_3.12.3-1ubuntu0.11_amd64.deb ...
+7[15;0f[42m[30mProgress: [ 10%][49m[39m [#####.................................................] 8Unpacking python3.12-minimal (3.12.3-1ubuntu0.11) ...
+7[15;0f[42m[30mProgress: [ 12%][49m[39m [######................................................] 8Setting up libpython3.12-minimal:amd64 (3.12.3-1ubuntu0.11) ...
+7[15;0f[42m[30mProgress: [ 14%][49m[39m [#######...............................................] 87[15;0f[42m[30mProgress: [ 16%][49m[39m [########..............................................] 8Setting up libexpat1:amd64 (2.6.1-2ubuntu0.4) ...
+7[15;0f[42m[30mProgress: [ 18%][49m[39m [#########.............................................] 87[15;0f[42m[30mProgress: [ 20%][49m[39m [###########...........................................] 8Setting up python3.12-minimal (3.12.3-1ubuntu0.11) ...
+7[15;0f[42m[30mProgress: [ 22%][49m[39m [############..........................................] 87[15;0f[42m[30mProgress: [ 24%][49m[39m [#############.........................................] 8Selecting previously unselected package python3-minimal.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 5688 files and directories currently installed.)
+Preparing to unpack .../0-python3-minimal_3.12.3-0ubuntu2.1_amd64.deb ...
+7[15;0f[42m[30mProgress: [ 27%][49m[39m [##############........................................] 8Unpacking python3-minimal (3.12.3-0ubuntu2.1) ...
+7[15;0f[42m[30mProgress: [ 29%][49m[39m [###############.......................................] 8Selecting previously unselected package media-types.
+Preparing to unpack .../1-media-types_10.1.0_all.deb ...
+7[15;0f[42m[30mProgress: [ 31%][49m[39m [################......................................] 8Unpacking media-types (10.1.0) ...
+7[15;0f[42m[30mProgress: [ 33%][49m[39m [#################.....................................] 8Selecting previously unselected package netbase.
+Preparing to unpack .../2-netbase_6.4_all.deb ...
+7[15;0f[42m[30mProgress: [ 35%][49m[39m [##################....................................] 8Unpacking netbase (6.4) ...
+7[15;0f[42m[30mProgress: [ 37%][49m[39m [###################...................................] 8Selecting previously unselected package tzdata.
+Preparing to unpack .../3-tzdata_2025b-0ubuntu0.24.04.1_all.deb ...
+7[15;0f[42m[30mProgress: [ 39%][49m[39m [####################..................................] 8Unpacking tzdata (2025b-0ubuntu0.24.04.1) ...
+7[15;0f[42m[30mProgress: [ 41%][49m[39m [######################................................] 8Selecting previously unselected package libpython3.12-stdlib:amd64.
+Preparing to unpack .../4-libpython3.12-stdlib_3.12.3-1ubuntu0.11_amd64.deb ...
+7[15;0f[42m[30mProgress: [ 43%][49m[39m [#######################...............................] 8Unpacking libpython3.12-stdlib:amd64 (3.12.3-1ubuntu0.11) ...
+7[15;0f[42m[30mProgress: [ 45%][49m[39m [########################..............................] 8Selecting previously unselected package python3.12.
+Preparing to unpack .../5-python3.12_3.12.3-1ubuntu0.11_amd64.deb ...
+7[15;0f[42m[30mProgress: [ 47%][49m[39m [#########################.............................] 8Unpacking python3.12 (3.12.3-1ubuntu0.11) ...
+7[15;0f[42m[30mProgress: [ 49%][49m[39m [##########################............................] 8Selecting previously unselected package libpython3-stdlib:amd64.
+Preparing to unpack .../6-libpython3-stdlib_3.12.3-0ubuntu2.1_amd64.deb ...
+7[15;0f[42m[30mProgress: [ 51%][49m[39m [###########################...........................] 8Unpacking libpython3-stdlib:amd64 (3.12.3-0ubuntu2.1) ...
+7[15;0f[42m[30mProgress: [ 53%][49m[39m [############################..........................] 8Setting up python3-minimal (3.12.3-0ubuntu2.1) ...
+7[15;0f[42m[30mProgress: [ 55%][49m[39m [#############################.........................] 87[15;0f[42m[30mProgress: [ 57%][49m[39m [##############################........................] 8Selecting previously unselected package python3.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 6658 files and directories currently installed.)
+Preparing to unpack .../python3_3.12.3-0ubuntu2.1_amd64.deb ...
+7[15;0f[42m[30mProgress: [ 59%][49m[39m [###############################.......................] 8Unpacking python3 (3.12.3-0ubuntu2.1) ...
+7[15;0f[42m[30mProgress: [ 61%][49m[39m [#################################.....................] 8Selecting previously unselected package nodejs.
+Preparing to unpack .../nodejs_20.20.1-1nodesource1_amd64.deb ...
+7[15;0f[42m[30mProgress: [ 63%][49m[39m [##################################....................] 8Unpacking nodejs (20.20.1-1nodesource1) ...
+7[15;0f[42m[30mProgress: [ 65%][49m[39m [###################################...................] 8Setting up media-types (10.1.0) ...
+7[15;0f[42m[30mProgress: [ 67%][49m[39m [####################################..................] 87[15;0f[42m[30mProgress: [ 69%][49m[39m [#####################################.................] 8Setting up tzdata (2025b-0ubuntu0.24.04.1) ...
+7[15;0f[42m[30mProgress: [ 71%][49m[39m [######################################................] 8debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 79.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC entries checked: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.38.2 /usr/local/share/perl/5.38.2 /usr/lib/x86_64-linux-gnu/perl5/5.38 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.38 /usr/share/perl/5.38 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 8.)
+debconf: falling back to frontend: Teletype
+Configuring tzdata
+------------------
+
+Please select the geographic area in which you live. Subsequent
+configuration questions will narrow this down by presenting a list of
+cities, representing the time zones in which they are located.
+
+  1. Africa      4. Arctic    7. Australia  10. Pacific
+  2. America     5. Asia      8. Europe     11. Etc
+  3. Antarctica  6. Atlantic  9. Indian     12. Legacy
+Geographic area: 
+7[0;14r8[1A7[15;0f[42m[30mProgress: [ 71%][49m[39m [#####################.........] 8
+7[0;14r8[1A7[15;0f[42m[30mProgress: [ 71%][49m[39m [######################################................] 8
+7[0;14r8[1A7[15;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;15r8[1A7[16;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;24r8[1A7[25;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;25r8[1A7[26;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;26r8[1A7[27;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;25r8[1A7[26;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;24r8[1A7[25;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;22r8[1A7[23;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;21r8[1A7[22;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;20r8[1A7[21;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;19r8[1A7[20;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;18r8[1A7[19;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;17r8[1A7[18;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;16r8[1A7[17;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;15r8[1A7[16;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;14r8[1A7[15;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;13r8[1A7[14;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;12r8[1A7[13;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;11r8[1A7[12;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;10r8[1A7[11;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;9r8[1A7[10;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;8r8[1A7[9;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;7r8[1A7[8;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;6r8[1A7[7;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;5r8[1A7[6;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;4r8[1A7[5;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;3r8[1A7[4;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;2r8[1A7[3;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;1r8[1A7[2;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;2r8[1A7[3;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;3r8[1A7[4;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;4r8[1A7[5;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;6r8[1A7[7;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;8r8[1A7[9;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;9r8[1A7[10;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;10r8[1A7[11;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;11r8[1A7[12;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;12r8[1A7[13;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;14r8[1A7[15;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;15r8[1A7[16;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;17r8[1A7[18;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;18r8[1A7[19;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;19r8[1A7[20;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;20r8[1A7[21;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;22r8[1A7[23;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;23r8[1A7[24;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;24r8[1A7[25;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;25r8[1A7[26;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;26r8[1A7[27;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;25r8[1A7[26;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;24r8[1A7[25;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;23r8[1A7[24;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;22r8[1A7[23;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;20r8[1A7[21;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;19r8[1A7[20;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;18r8[1A7[19;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;17r8[1A7[18;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;16r8[1A7[17;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;15r8[1A7[16;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;14r8[1A7[15;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;11r8[1A7[12;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;10r8[1A7[11;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;9r8[1A7[10;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;8r8[1A7[9;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;7r8[1A7[8;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;6r8[1A7[7;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;5r8[1A7[6;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;4r8[1A7[5;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;3r8[1A7[4;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;2r8[1A7[3;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;1r8[1A7[2;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;4r8[1A7[5;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;28r8[1A7[29;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;32r8[1A7[33;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;28r8[1A7[29;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;27r8[1A7[28;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;26r8[1A7[27;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;25r8[1A7[26;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;24r8[1A7[25;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;23r8[1A7[24;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;19r8[1A7[20;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;16r8[1A7[17;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;15r8[1A7[16;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;14r8[1A7[15;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;13r8[1A7[14;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;12r8[1A7[13;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;11r8[1A7[12;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;10r8[1A7[11;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;9r8[1A7[10;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8^[[A^[[B^[[B^[[B^[[A
+7[0;12r8[1A7[13;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;15r8[1A7[16;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;18r8[1A7[19;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;19r8[1A7[20;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;20r8[1A7[21;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;21r8[1A7[22;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;22r8[1A7[23;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;23r8[1A7[24;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;24r8[1A7[25;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;25r8[1A7[26;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;26r8[1A7[27;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;27r8[1A7[28;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;28r8[1A7[29;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;32r8[1A7[33;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;28r8[1A7[29;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;27r8[1A7[28;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;22r8[1A7[23;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;21r8[1A7[22;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;19r8[1A7[20;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;18r8[1A7[19;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;17r8[1A7[18;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 82           
+7[0;18r8[1A7[19;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;20r8[1A7[21;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;28r8[1A7[29;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;32r8[1A7[33;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;28r8[1A7[29;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;20r8[1A7[21;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;19r8[1A7[20;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;16r8[1A7[17;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;15r8[1A7[16;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;14r8[1A7[15;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;13r8[1A7[14;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;12r8[1A7[13;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;11r8[1A7[12;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;10r8[1A7[11;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8
+7[0;9r8[1A7[10;0f[42m[30mProgress: [ 71%][49m[39m [####################################################################################################.........................................] 8          ^[[C    2
+
+Please select the city or region corresponding to your time zone.
+
+  1. Adak                     80. Juneau
+  2. Anchorage                81. Kentucky/Louisville
+  3. Anguilla                 82. Kentucky/Monticello
+  4. Antigua                  83. Kralendijk
+[More] 
+
+  5. Araguaina                84. La_Paz
+  6. Argentina/Buenos_Aires   85. Lima
+  7. Argentina/Catamarca      86. Los_Angeles
+  8. Argentina/Cordoba        87. Lower_Princes
+  9. Argentina/Jujuy          88. Maceio
+  10. Argentina/La_Rioja      89. Managua
+  11. Argentina/Mendoza       90. Manaus
+[More] 85
+
+  12. Argentina/Rio_Gallegos  91. Marigot
+  13. Argentina/Salta         92. Martinique
+  14. Argentina/San_Juan      93. Matamoros
+  15. Argentina/San_Luis      94. Mazatlan
+  16. Argentina/Tucuman       95. Menominee
+  17. Argentina/Ushuaia       96. Merida
+  18. Aruba                   97. Metlakatla
+[More] 
+
+  19. Asuncion                98. Mexico_City
+  20. Atikokan                99. Miquelon
+  21. Atka                    100. Moncton
+  22. Bahia                   101. Monterrey
+  23. Bahia_Banderas          102. Montevideo
+  24. Barbados                103. Montreal
+  25. Belem                   104. Montserrat
+[More] 
+
+  26. Belize                  105. Nassau
+  27. Blanc-Sablon            106. New_York
+  28. Boa_Vista               107. Nipigon
+  29. Bogota                  108. Nome
+  30. Boise                   109. Noronha
+  31. Cambridge_Bay           110. North_Dakota/Beulah
+  32. Campo_Grande            111. North_Dakota/Center
+[More] 
+
+  33. Cancun                  112. North_Dakota/New_Salem
+  34. Caracas                 113. Nuuk
+  35. Cayenne                 114. Ojinaga
+  36. Cayman                  115. Panama
+  37. Chicago                 116. Pangnirtung
+  38. Chihuahua               117. Paramaribo
+  39. Ciudad_Juarez           118. Phoenix
+[More] 
+
+  40. Coral_Harbour           119. Port-au-Prince
+  41. Costa_Rica              120. Port_of_Spain
+  42. Coyhaique               121. Porto_Acre
+  43. Creston                 122. Porto_Velho
+  44. Cuiaba                  123. Puerto_Rico
+  45. Curacao                 124. Punta_Arenas
+  46. Danmarkshavn            125. Rainy_River
+[More] 
+
+  47. Dawson                  126. Rankin_Inlet
+  48. Dawson_Creek            127. Recife
+  49. Denver                  128. Regina
+  50. Detroit                 129. Resolute
+  51. Dominica                130. Rio_Branco
+  52. Edmonton                131. Santa_Isabel
+  53. Eirunepe                132. Santarem
+[More] 
+
+  54. El_Salvador             133. Santiago
+  55. Ensenada                134. Santo_Domingo
+  56. Fort_Nelson             135. Sao_Paulo
+  57. Fortaleza               136. Scoresbysund
+  58. Glace_Bay               137. Shiprock
+  59. Goose_Bay               138. Sitka
+  60. Grand_Turk              139. St_Barthelemy
+[More] 
+
+  61. Grenada                 140. St_Johns
+  62. Guadeloupe              141. St_Kitts
+  63. Guatemala               142. St_Lucia
+  64. Guayaquil               143. St_Thomas
+  65. Guyana                  144. St_Vincent
+  66. Halifax                 145. Swift_Current
+  67. Havana                  146. Tegucigalpa
+[More] 
+
+  68. Hermosillo              147. Thule
+  69. Indiana/Indianapolis    148. Thunder_Bay
+  70. Indiana/Knox            149. Tijuana
+  71. Indiana/Marengo         150. Toronto
+  72. Indiana/Petersburg      151. Tortola
+  73. Indiana/Tell_City       152. Vancouver
+  74. Indiana/Vevay           153. Virgin
+[More] 
+
+  75. Indiana/Vincennes       154. Whitehorse
+  76. Indiana/Winamac         155. Winnipeg
+  77. Inuvik                  156. Yakutat
+  78. Iqaluit                 157. Yellowknife
+  79. Jamaica
+Time zone: 85
+
+
+Current default time zone: 'America/Lima'
+Local time is now:      Fri Mar  6 17:46:41 -05 2026.
+Universal Time is now:  Fri Mar  6 22:46:41 UTC 2026.
+Run 'dpkg-reconfigure tzdata' if you wish to change it.
+
+7[10;0f[42m[30mProgress: [ 73%][49m[39m [#######################################################################################################......................................] 8Setting up netbase (6.4) ...
+7[10;0f[42m[30mProgress: [ 76%][49m[39m [##########################################################################################################...................................] 87[10;0f[42m[30mProgress: [ 78%][49m[39m [#############################################################################################################................................] 8Setting up libpython3.12-stdlib:amd64 (3.12.3-1ubuntu0.11) ...
+7[10;0f[42m[30mProgress: [ 80%][49m[39m [################################################################################################################.............................] 87[10;0f[42m[30mProgress: [ 82%][49m[39m [###################################################################################################################..........................] 8Setting up python3.12 (3.12.3-1ubuntu0.11) ...
+7[10;0f[42m[30mProgress: [ 84%][49m[39m [#####################################################################################################################........................] 87[10;0f[42m[30mProgress: [ 86%][49m[39m [########################################################################################################################.....................] 8Setting up libpython3-stdlib:amd64 (3.12.3-0ubuntu2.1) ...
+7[10;0f[42m[30mProgress: [ 88%][49m[39m [###########################################################################################################################..................] 87[10;0f[42m[30mProgress: [ 90%][49m[39m [##############################################################################################################################...............] 8Setting up python3 (3.12.3-0ubuntu2.1) ...
+7[10;0f[42m[30mProgress: [ 92%][49m[39m [#################################################################################################################################............] 8running python rtupdate hooks for python3.12...
+running python post-rtupdate hooks for python3.12...
+7[10;0f[42m[30mProgress: [ 94%][49m[39m [####################################################################################################################################.........] 8Setting up nodejs (20.20.1-1nodesource1) ...
+7[10;0f[42m[30mProgress: [ 96%][49m[39m [#######################################################################################################################################......] 87[10;0f[42m[30mProgress: [ 98%][49m[39m [##########################################################################################################################################...] 8Processing triggers for libc-bin (2.39-0ubuntu8.7) ...
+
+7[0;10r8[1A[J[?2004h]0;root@679ce062ae7c: /root@679ce062ae7c:/# [K[K]0;root@679ce062ae7c: /root@679ce062ae7c:/# node /usr/src/app/index.js
+[?2004lHello World
+[?2004h]0;root@679ce062ae7c: /root@679ce062ae7c:/# [Kexit
+[?2004lexit
+[2m⏎(B[m                                                                           ⏎ [K[?2004h]0;~/f/script-answers[30m(B[m[92mrichie(B[m@(B[mLAPTOP-HQ8TI5FC(B[m [32m~/f/script-answers(B[m (main)(B[m> [K[50Ce[51C[90mxit[30m(B[m[51C[91me[90mxit[30m(B[m[51C[91mx[90mit[30m(B[m[52C[34mex[90mit[30m(B[m[52C[34mi[90mt[30m(B[m[53C[91mexi[90mt[30m(B[m[53C[91mt[30m(B[m[54C[54C[34mexit[30m(B[m[54C[54C
+[30m(B[m[?2004l]0;exit ~/f/script-answers[30m(B[m[30m(B[m[?2004l
+Script done on 2026-03-06 17:47:11-05:00 [COMMAND_EXIT_CODE="0"]

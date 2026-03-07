@@ -1,0 +1,49 @@
+Script started on 2026-03-06 17:18:00-05:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="76" LINES="5"]
+Welcome to fish, the friendly interactive shell
+Type [32mhelp(B[m for instructions on how to use fish
+[?2004h]0;~/f/script-answers[30m(B[m[92mrichie(B[m@(B[mLAPTOP-HQ8TI5FC(B[m [32m~/f/script-answers(B[m (main)(B[m> [K[50Cd[51C[90mocker container run hel…[30m(B[m[51C[91md[90mocker container run hel…[30m(B[m[51C[91mo[90mcker container run hel…[30m(B[m[52C[91mc[90mker container run hel…[30m(B[m[53C[91mk[90mer container run hel…[30m(B[m[54C[91me[90mr container run hel…[30m(B[m[55C[91mr[90m container run hel…[30m(B[m[56C[34mdocker[90m container run hel…[30m(B[m[56C[34m [90mcontainer run hel…[30m(B[m[57C [90mcontainer run hel…[30m(B[m[57Cc[90montainer run hel…[30m(B[m[58C[36mc[90montainer run hel…[30m(B[m[58C[36mo[90mntainer run hel…[30m(B[m[59C[36mn[90mtainer run hel…[30m(B[m[60C[36mt[90mainer run hel…[30m(B[m[61C[36ma[90miner run hel…[30m(B[m[62C[36mi[90mner run hel…[30m(B[m[63C[36mn[90mer run hel…[30m(B[m[64C[36me[90mr run hel…[30m(B[m[65C[36mr[90m run hel…[30m(B[m[66C[36m [90mrun hel…[30m(B[m[67C [90mrun hel…[30m(B[m[67Cr[90mun hel…[30m(B[m[68C[36mr[90mun hel…[30m(B[m[68C[36mu[90mn hel…[30m(B[m[69C[36mn[90m hel…[30m(B[m[70C[36m [90mhel…[30m(B[m[71C [90mhel…[30m(B[m[71C-[K[72C[36m-[30m(B[m[72C[36mi[30m(B[m[73C[36mt[30m(B[m[74C[36m [30m(B[m[75C [75Cu
+[A[75C[36mu[30m(B[m
+[A[74C [36mu[30m(B[m[36mb[30m(B[m[A
+[C[36mu[30m(B[m[A
+[C[C[36mn[30m(B[m[A
+[3C[36mt[30m(B[m[A
+[4C[36mu[30m(B[m[A
+[5C[36m [30m(B[m[A
+[6C [A
+[6Cb[A
+[7C[36mb[30m(B[m[A
+[7C[36ma[30m(B[m[A
+[8C[36ms[30m(B[m[A
+[9C[36mh[30m(B[m[A
+[10C]0;~/f/script-answers[30m(B[m[A[92mrichie(B[m@(B[mLAPTOP-HQ8TI5FC(B[m [32m~/f/script-answers(B[m (main)(B[m> [34mdocker[30m(B[m [36mcontainer[30m(B[m [36mrun[30m(B[m [36m-it[30m(B[m [36mu[30m(B[m[36mbuntu[30m(B[m [36mbash[30m(B[m[K[A
+[10C]0;~/f/script-answers[30m(B[m[A[92mrichie(B[m@(B[mLAPTOP-HQ8TI5FC(B[m [32m~/f/script-answers(B[m (main)(B[m> [34mdocker[30m(B[m [36mcontainer[30m(B[m [36mrun[30m(B[m [36m-it[30m(B[m [36mu[30m(B[m[36mbuntu[30m(B[m [36mbash[30m(B[m[K[A
+[10C]0;~/f/script-answers[30m(B[m[A[92mrichie(B[m@(B[mLAPTOP-HQ8TI5FC(B[m [32m~/f/script-answers(B[m (main)(B[m> [34mdocker[30m(B[m [36mcontainer[30m(B[m [36mrun[30m(B[m [36m-it[30m(B[m [36mu[30m(B[m[36mbuntu[30m(B[m [36mbash[30m(B[m[K[A
+[10C]0;~/f/script-answers[30m(B[m[A[92mrichie(B[m@(B[mLAPTOP-HQ8TI5FC(B[m [32m~/f/script-answers(B[m (main)(B[m> [34mdocker[30m(B[m [36mcontainer[30m(B[m [36mrun[30m(B[m [36m-it[30m(B[m [36mu[30m(B[m[36mbuntu[30m(B[m [36mbash[30m(B[m[K[A
+[10C]0;~/f/script-answers[30m(B[m[A[92mrichie(B[m@(B[mLAPTOP-HQ8TI5FC(B[m [32m~/f/script-answers(B[m (main)(B[m> [34mdocker[30m(B[m [36mcontainer[30m(B[m [36mrun[30m(B[m [36m-it[30m(B[m [36mu[30m(B[m[36mbuntu[30m(B[m [36mbash[30m(B[m[K[A
+[10C]0;~/f/script-answers[30m(B[m[A[92mrichie(B[m@(B[mLAPTOP-HQ8TI5FC(B[m [32m~/f/script-answers(B[m (main)(B[m> [34mdocker[30m(B[m [36mcontainer[30m(B[m [36mrun[30m(B[m [36m-it[30m(B[m [36mu[30m(B[m[36mbuntu[30m(B[m [36mbash[30m(B[m[K[A
+[10C]0;~/f/script-answers[30m(B[m[A[92mrichie(B[m@(B[mLAPTOP-HQ8TI5FC(B[m [32m~/f/script-answers(B[m (main)(B[m> [34mdocker[30m(B[m [36mcontainer[30m(B[m [36mrun[30m(B[m [36m-it[30m(B[m [36mu[30m(B[m[36mbuntu[30m(B[m [36mbash[30m(B[m[K[A
+[10C]0;~/f/script-answers[30m(B[m[A[92mrichie(B[m@(B[mLAPTOP-HQ8TI5FC(B[m [32m~/f/script-answers(B[m (main)(B[m> [34mdocker[30m(B[m [36mcontainer[30m(B[m [36mrun[30m(B[m [36m-it[30m(B[m [36mu[30m(B[m[36mbuntu[30m(B[m [36mbash[30m(B[m[K[A
+[10C]0;~/f/script-answers[30m(B[m[A[92mrichie(B[m@(B[mLAPTOP-HQ8TI5FC(B[m [32m~/f/script-answers(B[m (main)(B[m> [34mdocker[30m(B[m [36mcontainer[30m(B[m [36mrun[30m(B[m [36m-it[30m(B[m [36mu[30m(B[m[36mbuntu[30m(B[m [36mbash[30m(B[m[K[A
+[10C]0;~/f/script-answers[30m(B[m[A[92mrichie(B[m@(B[mLAPTOP-HQ8TI5FC(B[m [32m~/f/script-answers(B[m (main)(B[m> [34mdocker[30m(B[m [36mcontainer[30m(B[m [36mrun[30m(B[m [36m-it[30m(B[m [36mu[30m(B[m[36mbuntu[30m(B[m [36mbash[30m(B[m[K[A
+[10C]0;~/f/script-answers[30m(B[m[A[92mrichie(B[m@(B[mLAPTOP-HQ8TI5FC(B[m [32m~/f/script-answers(B[m (main)(B[m> [34mdocker[30m(B[m [36mcontainer[30m(B[m [36mrun[30m(B[m [36m-it[30m(B[m [36mu[30m(B[m[36mbuntu[30m(B[m [36mbash[30m(B[m[K[A
+[10C
+[30m(B[m[?2004l]0;docker container run ~/f/script-answers[30m(B[mUnable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+
+[1A[2K01d7766a2e4a: Pulling fs layer [1B[1A[2K01d7766a2e4a: Downloading  2.097MB/29.73MB[1B[1A[2K01d7766a2e4a: Downloading  3.146MB/29.73MB[1B[1A[2K01d7766a2e4a: Downloading  4.194MB/29.73MB[1B[1A[2K01d7766a2e4a: Downloading  5.243MB/29.73MB[1B[1A[2K01d7766a2e4a: Downloading  6.291MB/29.73MB[1B[1A[2K01d7766a2e4a: Downloading  8.389MB/29.73MB[1B[1A[2K01d7766a2e4a: Downloading  9.437MB/29.73MB[1B[1A[2K01d7766a2e4a: Downloading  10.49MB/29.73MB[1B[1A[2K01d7766a2e4a: Downloading  11.53MB/29.73MB[1B[1A[2K01d7766a2e4a: Downloading  12.58MB/29.73MB[1B[1A[2K01d7766a2e4a: Downloading  14.68MB/29.73MB[1B[1A[2K01d7766a2e4a: Downloading  15.73MB/29.73MB[1B[1A[2K01d7766a2e4a: Downloading  16.78MB/29.73MB[1B[1A[2K01d7766a2e4a: Downloading  17.83MB/29.73MB[1B[1A[2K01d7766a2e4a: Downloading  18.87MB/29.73MB[1B[1A[2K01d7766a2e4a: Downloading  19.92MB/29.73MB[1B[1A[2K01d7766a2e4a: Downloading  20.97MB/29.73MB[1B[1A[2K01d7766a2e4a: Downloading  20.97MB/29.73MB[1B[1A[2K01d7766a2e4a: Downloading  22.02MB/29.73MB[1B[1A[2K01d7766a2e4a: Downloading  23.07MB/29.73MB[1B[1A[2K01d7766a2e4a: Downloading  24.12MB/29.73MB[1B[1A[2K01d7766a2e4a: Downloading  25.17MB/29.73MB[1B[1A[2K01d7766a2e4a: Downloading  26.21MB/29.73MB[1B[1A[2K01d7766a2e4a: Downloading  27.26MB/29.73MB[1B[1A[2K01d7766a2e4a: Downloading  28.31MB/29.73MB[1B[1A[2K01d7766a2e4a: Downloading  29.36MB/29.73MB[1B[1A[2K01d7766a2e4a: Download complete [1B[1A[2K01d7766a2e4a: Extracting 1 s[1B[1A[2K01d7766a2e4a: Extracting 1 s[1B[1A[2K01d7766a2e4a: Extracting 1 s[1B[1A[2K01d7766a2e4a: Extracting 1 s[1B[1A[2K01d7766a2e4a: Extracting 1 s[1B[1A[2K01d7766a2e4a: Extracting 1 s[1B[1A[2K01d7766a2e4a: Extracting 1 s[1B[1A[2K01d7766a2e4a: Extracting 1 s[1B[1A[2K01d7766a2e4a: Extracting 1 s[1B[1A[2K01d7766a2e4a: Extracting 1 s[1B[1A[2K01d7766a2e4a: Extracting 1 s[1B[1A[2K01d7766a2e4a: Extracting 2 s[1B[1A[2K01d7766a2e4a: Extracting 2 s[1B[1A[2K01d7766a2e4a: Extracting 2 s[1B[1A[2K01d7766a2e4a: Extracting 2 s[1B[1A[2K01d7766a2e4a: Pull complete [1BDigest: sha256:d1e2e92c075e5ca139d51a140fff46f84315c0fdce203eab2807c7e495eff4f9
+Status: Downloaded newer image for ubuntu:latest
+[?2004h]0;root@679ce062ae7c: /root@679ce062ae7c:/# temp
+[?2004lbash: temp: command not found
+[?2004h]0;root@679ce062ae7c: /root@679ce062ae7c:/# mkdir /usr/src/app
+[?2004l[?2004h]0;root@679ce062ae7c: /root@679ce062ae7c:/# ls
+[?2004l[0m[01;36mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;36mlib64[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msrv[0m  [30;42mtmp[0m  [01;34mvar[0m
+[01;34mboot[0m  [01;34metc[0m  [01;36mlib[0m   [01;34mmedia[0m  [01;34mopt[0m  [01;34mroot[0m  [01;36msbin[0m  [01;34msys[0m  [01;34musr[0m
+[?2004h]0;root@679ce062ae7c: /root@679ce062ae7c:/# cd /usr/src/app
+[?2004l[?2004h]0;root@679ce062ae7c: /usr/src/approot@679ce062ae7c:/usr/src/app# touch index.js
+[?2004l[?2004h]0;root@679ce062ae7c: /usr/src/approot@679ce062ae7c:/usr/src/app# ls
+[?2004lindex.js
+[?2004h]0;root@679ce062ae7c: /usr/src/approot@679ce062ae7c:/usr/src/app# exit
+[?2004lexit
+[2m⏎(B[m                                                                           ⏎ [K[?2004h]0;~/f/script-answers[30m(B[m[92mrichie(B[m@(B[mLAPTOP-HQ8TI5FC(B[m [32m~/f/script-answers(B[m (main)(B[m> [K[50Ce[51C[90mxit[30m(B[m[51C[91me[90mxit[30m(B[m[51C[91mx[90mit[30m(B[m[52C[34mex[90mit[30m(B[m[52C[34mi[90mt[30m(B[m[53C[91mexi[90mt[30m(B[m[53C[91mt[30m(B[m[54C[54C[34mexit[30m(B[m[54C[54C
+[30m(B[m[?2004l]0;exit ~/f/script-answers[30m(B[m[30m(B[m[?2004l
+Script done on 2026-03-06 17:20:29-05:00 [COMMAND_EXIT_CODE="0"]
